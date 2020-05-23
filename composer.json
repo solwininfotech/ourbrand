@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourbrand",
+    "description": "This extension allows customers to shop by brand in your store.",
+    "type": "magento2-module",
+    "version": "2.2.4",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourbrand\\": ""
+        }
+    }
+}
